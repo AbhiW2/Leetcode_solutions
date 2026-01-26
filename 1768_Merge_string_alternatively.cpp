@@ -22,4 +22,6 @@ int main(){
     cout<<"Output 2:"<<mergeAlternately("ab","pqrs")<<endl;
     cout<<"output 3:"<<mergeAlternately("abcd","pq")<<endl;
 
+    return 0;
+
 }
