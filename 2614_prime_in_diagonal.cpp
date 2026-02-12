@@ -41,7 +41,7 @@ int main() {
             cin >> nums[i][j];
 
     Solution obj;
-    cout << "Largest Prime: " << obj.diagonalPrime(nums);
+    cout << "Largest Prime: \n" << obj.diagonalPrime(nums);
 
     return 0;
 }
