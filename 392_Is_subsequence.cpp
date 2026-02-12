@@ -15,7 +15,7 @@ public:
 
         return i == s.length();
     }
-};
+};  
 
 int main() {
     Solution sol;
