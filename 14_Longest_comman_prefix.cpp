@@ -24,7 +24,6 @@ string longestCommonPrefix(vector<string>& strs) {
         // Keep only the common prefix
         prefix = prefix.substr(0, j);
 
-        // If no common prefix exists
         if (prefix.empty())
             return "";
     }
