@@ -11,21 +11,21 @@ struct ListNode {
     }
 };
 
-class Solution {
-public:
-    ListNode* reverseList(ListNode* head) {
-        ListNode* prev = NULL;
+    class Solution {
+    public:
+        ListNode* reverseList(ListNode* head) {
+            ListNode* prev = NULL;
 
-        while (head != NULL) {
-            ListNode* next = head->next;
-            head->next = prev;
-            prev = head;
-            head = next;
+            while (head != NULL) {
+                ListNode* next = head->next;
+                head->next = prev;
+                prev = head;
+                head = next;
+            }
+
+            return prev;
         }
-
-        return prev;
-    }
-};
+    };
 
 void printList(ListNode* head) {
     while (head != NULL) {
