@@ -29,11 +29,11 @@ public:
 
 int main() {
 
-    Solution obj;
+    Solution object;
 
     string s = "abcabcbb";
 
-    cout << obj.lengthOfLongestSubstring(s);
+    cout << object.lengthOfLongestSubstring(s);
 
     return 0;
 }
